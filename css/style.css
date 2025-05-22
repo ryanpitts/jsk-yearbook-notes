@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	background-color: #e8e8e8;
+	margin: 0;
+	padding: 0;
+	font-optical-sizing: auto;
+	font-size: 18px;
+}
+
+main {
+	max-width: 800px;
+	margin: 3em auto;
+	background-color: white;
+	text-align: left;
+	padding: 1.5em 3em;
+	border-radius: .67em;
+	font-family: "Ancizar Sans", sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "Ancizar Sans", sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: "Ancizar Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ancizar-sans-bold {
+	font-family: "Ancizar Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#home {font-size: 800; line-height: 1; color: #eee; text-shadow: 1px 1px 3px #ddd; cursor: default;}
+#drag {position: absolute; top: 250px; left: 50%; margin-left: -19px; z-index: 99; padding: 3px; background-color: #fff; border: 1px solid #eee; cursor: pointer;}
+#heart {position: absolute; top: 250px; left: 50%; margin-left: -18px; z-index: 98; font-size: 30px; color: #d8d8d8; -webkit-transition: all 0.67s ease-in-out; -moz-transition: all 0.67s ease-in-out; -o-transition: all 0.67s ease-in-out; -ms-transition: all 0.67s ease-in-out;}
+#heart:hover {text-shadow: 0 0 3px #fff; color: #cc0000;}
+#find {font-size: 21px; position: absolute; top: 320px; left: 50%; width: 112px; margin: 0 0 0 -56px;}
+#find a {margin: 0 3px; color: #777;}
+#find a:hover {color: #000;}
+#find a.twitter:hover {color: #4099ff;}
+#find a.rdio:hover {color: #0781c2;}
+#find a.github:hover {color: #4183c4;}
+#up {position: relative; margin-top: 10000px; margin-bottom: 100px; font-size: 24px; color: #666; display: block;}
+
+/* use this --> http://fortawesome.github.com/Font-Awesome/ */
